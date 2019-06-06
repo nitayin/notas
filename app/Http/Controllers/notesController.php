@@ -9,4 +9,9 @@ class notesController extends Controller
     public function show(){
         return notes::all();
     }
+   function store(Request $request){
+        $notes = new notes($request->all());
+        
+        $
+   }
 }
